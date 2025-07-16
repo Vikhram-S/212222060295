@@ -7,7 +7,6 @@ This is a React-based URL shortener web application built with Next.js (App Rout
 The project follows a specific top-level folder structure:
 
 \`\`\`
-.
 ├── Logging Middleware/
 │   └── logger.ts
 └── Frontend Test Submission/

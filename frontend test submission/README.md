@@ -69,12 +69,13 @@ The application strictly adheres to a custom logging middleware. All logging thr
 *   **Remote Reporting**: Log data is sent via a POST request to `http://20.244.56.144/evaluation-service/logs`, allowing for external monitoring and analysis.
 
 Example usage:
-\`\`\`typescript
+```
+typescript
 import { Log } from "@/Logging Middleware/logger";
 
 // ... inside a component or function
 Log("URLShortenerPage", "INFO", "frontend-app", "Short URL successfully created.");
-\`\`\`
+```
 
 ## Validations & Defaults
 

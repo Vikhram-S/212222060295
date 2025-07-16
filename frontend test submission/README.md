@@ -7,20 +7,20 @@ This is a React-based URL shortener web application built with Next.js (App Rout
 The project follows a specific top-level folder structure:
 
 ```
-└── frontend test submission/
-    ├── app/
-    │   ├── [shortcode]/
-    │   │   └── page.tsx
-    │   ├── layout.tsx
-    │   ├── page.tsx
-    │   └── stats/
-    │       └── page.tsx
-    ├── lib/
-    │   ├── storage.ts
-    │   └── utils.ts
-    └── types/
-        └── index.ts
-    ├── Logging Middleware/
+frontend test submission/
+├── app/
+│   ├── [shortcode]/
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── stats/
+│       └── page.tsx
+├── lib/
+│   ├── storage.ts
+│   └── utils.ts
+├── types/
+│   └── index.ts
+├── Logging Middleware/
 │   └── logger.ts
 ```
 *   **`/Logging Middleware`**: Contains the custom logging utility (`logger.ts`) responsible for sending application logs to a remote endpoint.

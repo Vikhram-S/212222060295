@@ -6,7 +6,7 @@ This is a React-based URL shortener web application built with Next.js (App Rout
 
 The project follows a specific top-level folder structure:
 
-\`\`\`
+```
 ├── Logging Middleware/
 │   └── logger.ts
 └── Frontend Test Submission/
@@ -22,8 +22,7 @@ The project follows a specific top-level folder structure:
     │   └── utils.ts
     └── types/
         └── index.ts
-\`\`\`
-
+```
 *   **`/Logging Middleware`**: Contains the custom logging utility (`logger.ts`) responsible for sending application logs to a remote endpoint.
 *   **`/Frontend Test Submission`**: Contains all the core application code, including Next.js pages, shared libraries, and TypeScript type definitions.
 

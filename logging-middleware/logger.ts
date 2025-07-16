@@ -1,4 +1,4 @@
-import type { LogLevel } from "@/Frontend Test Submission/types"
+import type { LogLevel } from "@/frontend test submission/types"
 
 const LOGGING_API_ENDPOINT = "http://20.244.56.144/evaluation-service/logs"
 
